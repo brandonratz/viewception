@@ -201,9 +201,9 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'example7_dev',
       'username' => 'example7_dev',
@@ -215,7 +215,6 @@ $databases = array (
     ),
   ),
 );
-
 /**
  * Access control for update.php script.
  *
@@ -246,7 +245,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'xWuWTNHiHo85Ec5sjd2gXzVgN-SbIv5Xw-RYyzUxVts';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
