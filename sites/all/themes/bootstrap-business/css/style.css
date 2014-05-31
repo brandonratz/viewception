@@ -592,3 +592,22 @@ a.contextual-links-trigger, #toolbar a, textarea { -webkit-transition: none; -mo
 .sf-menu > li > ul {
   width: auto !important;
 }
+
+h1.page-title {
+  border-top: #444 solid 2px;
+  border-bottom: #444 solid 2px;
+  padding: .35em;
+}
+h2.heading-block,
+h3.heading-block,
+h4.heading-block,
+h5.heading-block {
+  background: #444;
+  color: #f4f4f4;
+  padding: .25em;
+  border-radius: 3px;
+}
+h4.heading-block,
+h5.heading-block {
+  background: #A0A0A0;
+}
